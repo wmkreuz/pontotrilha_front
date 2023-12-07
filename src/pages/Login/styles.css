@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: rgba(253, 120, 33);
+}
+
+
+/* Classes de estilo geral */
+
+.blur {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.74) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    height: 100%;
+}
+
+.text-logo {
+    color: var(--cor-principal);
+}
+
+/* Fim das classes de estilo geral */
+
+.login {
+    height: 100vh;
+}
+
+.form-login {
+    padding: 30px;
+    width: 40em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+}
+
+.text-login {
+    width: 23em;
+    margin-top: 2em;
+    color: white;
+    font-size: 1.3em;
+}
+
+.title {
+    color: white!important;
+    font-size: 3em;
+    text-align: center;
+}
+
+.header-logo {
+    background-image: url("../../assets/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.terms a {
+    color: black;
+}
+
+.forgot-password {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.ponto-trilha {
+    color: var(--cor-principal);
+}
+
+.terms {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media (max-width: 425px) {
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .header-logo {
+        background-image: none;
+        height: 0px;
+    }
+
+    .blur{
+        background: none;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        height: 100%;
+    }
+
+    .text-login{
+        display: none;
+    }
+
+    .form-login {
+        padding: 0px;
+        width: 40em;
+    }
+
+
+    
+    .logo{
+        margin: 25px;
+    }
+    
+    .title{
+        font-size: 1.5em;
+        color: black!important;
+    }
+
+    .terms{
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .text-login{
+        display: none;
+    }
+
+    .form-login {
+        padding: 0px;
+        width: 40em;
+    }
+   
+    .terms{
+        font-size: .8rem;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    
+
+}
+
+@media (max-width: 1024px) {
+
+    .text-login {
+        width: 17em;
+        text-align: center;
+    }
+
+}
+

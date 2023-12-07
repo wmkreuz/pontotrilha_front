@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: rgba(253, 120, 33);
+}
+
+
+.logo{
+    margin: 25px 0px;
+}
+
+.ponto-trilha {
+    color: var(--cor-principal);
+}
+
+
+
