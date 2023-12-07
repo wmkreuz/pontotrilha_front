@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pontotrilha_front/static/css/main.a944a53d.css",
+    "main.js": "/pontotrilha_front/static/js/main.44d9e7b0.js",
+    "static/js/787.3acbab67.chunk.js": "/pontotrilha_front/static/js/787.3acbab67.chunk.js",
+    "static/media/banner.jpg": "/pontotrilha_front/static/media/banner.3885988b38a569eb8be0.jpg",
+    "index.html": "/pontotrilha_front/index.html",
+    "main.a944a53d.css.map": "/pontotrilha_front/static/css/main.a944a53d.css.map",
+    "main.44d9e7b0.js.map": "/pontotrilha_front/static/js/main.44d9e7b0.js.map",
+    "787.3acbab67.chunk.js.map": "/pontotrilha_front/static/js/787.3acbab67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a944a53d.css",
+    "static/js/main.44d9e7b0.js"
+  ]
+}
